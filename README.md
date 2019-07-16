@@ -1,7 +1,7 @@
 # GenderNet
 <h1>gender detection and labeling</h1>
 
-  gender detection and labeling using google colab.
+  Gender detection and labeling through deep CNN. Here ,I used MTCNN face detector  to obtain the location of the faces in the test image. For further details about MTCNN you can go through https://pypi.org/project/mtcnn/
   
   
 ![GitHub](/download.png)
@@ -25,7 +25,7 @@
     
     4. upload a new image and predict    
       4.a. upload a new image
-      4.b. crop the faces from the new image and save it
+      4.b. crop the faces from the new image through mtcnn() face detector and save it
       4.c. predict the faces of two classes(man / woman)
       4.d. draw boundary boxes , label and save it as duplicate image.jpg
 
